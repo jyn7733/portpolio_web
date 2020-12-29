@@ -1,0 +1,5 @@
+/* 공통 */
+
+#wrap{position: relative;
+  width: 100%; height: auto; min-height: 3000px;
+}

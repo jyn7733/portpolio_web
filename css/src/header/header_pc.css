@@ -1,0 +1,27 @@
+/* pc */
+
+#headBox{position: absolute; top: 100vh;
+  width: 100%; height: 6.25rem; height: 100px;
+}
+h1{
+  position: absolute; top:50px; left: 50px; z-index: 1000; font-size: 1.25rem; text-align: center;
+  width: 50px; height: 50px;
+  background-image: url("../../../img/logo.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+#navBox{
+  width: 100%; height: 100%;
+}
+#navBox ul{
+  width: 100%; height: 100%; text-align: center; margin-top: 1.25rem;
+}
+#navBox ul>li{
+  display: inline-block; font-size: 1.25rem; margin-right: 1.25rem; 
+  border-bottom: 3px solid #030f51;
+}
+.meun_btn{display: none;}
+.close_btn{display: none;}
+/* //headBox-------------------------------------------------- */

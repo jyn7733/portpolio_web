@@ -1,0 +1,77 @@
+/* mobile */
+
+@media screen and (min-width:280px) and (max-width:600px){
+  #aboutMe{width: 100%;  height: auto; min-height: 1000px;}
+
+  .about_me_img{
+    width: 100%; height:200px;
+  }
+  .profile_area{
+    float: none; margin-top: 30px;
+    width: 100%; height: 50%
+  }
+  .profile_img{
+    float: none; margin-top: 30px;
+    width: 100%; height: auto; min-height: 250px;
+  }
+  .img{
+    width: 154px; height: 228px;
+    margin: auto; 
+    background-image: url("../../../img/profile_img_small.png");
+  }
+  .profile_text_01{
+    float: none; margin-top: 30px;
+    width: 50%; height: 20%; margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile_text_02{
+    float: none; margin: auto;
+    width: 50%; height: 20%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .profile_text_02 span{
+    font-weight: bold;
+  }
+  .skill_area{
+    float: none;
+    margin-top: 30px;
+    width: 100%; height: auto;
+  }
+  .skill_area > h3{
+    text-align: center;
+  }
+  .skill_area ul{
+    width: 80%; height: 80%; margin: auto;
+    margin-top: 30px; text-align: center;
+  }
+  .skill_area ul li{
+    width: 20%; height: auto;
+    display: inline-block; margin-right: 50px; margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .skill_area ul li:nth-child(3n){margin-right: 0;}
+
+  .skil_img{
+    width: 11.71875vw; height: 11.71875vw;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+}
+
+@media screen and (min-width:280px) and (max-width:347px){
+  .profile_text_01{
+    font-size: 14px;
+  }
+  .profile_text_02{
+    font-size: 14px;
+  }
+  .skill_area ul li:nth-child(3n){margin-right: 50px;}
+  .skill_area ul li:nth-child(2n){margin-right: 0;}
+}
