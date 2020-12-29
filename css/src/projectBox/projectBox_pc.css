@@ -1,0 +1,40 @@
+/* pc */
+
+#projectBox{width: 100%; height: auto; min-height: 800px;}
+#projectBox h2{width: 100%; height: 50px; text-align: center; margin-top: 50px;}
+.project_area{width: 100%; height: auto;}
+.project_area ul{
+  width: 80%; height: auto; min-height: 500px; margin: auto; margin-top: 40px; 
+  text-align: center;
+}
+.project_area ul>li{display: inline-block; width: 30%; height: 500px; margin-right: 20px; margin-bottom: 1.875rem; border: 2px solid #030303;}
+.project_img{width: 100%; height: 60%; background-color: #84a;}
+.project_title{width: 100%; height: 20%; margin-top: 1.25rem;}
+.project_title p{font-size: 1.25rem; font-weight: bold; }
+.more_btn{width: 60%; height: 10%; margin: auto; background-color: #030f51;}
+.more_btn:hover{background-color: #333;}
+.more_btn button{width: 100%; height: 100%;}
+.more_btn button span{font-weight: bold;  color: #fff;}
+
+/* ------------------------------------------ */
+
+.more_box{position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index:100; background-color: rgba(0,0,0,0.5);}
+.more_area{ position: absolute; top: 50%; left: 50%; transform:translate(-50%, -50%);
+  width: 80%; height: auto; min-height: 600px; border-radius:0.5rem; padding:1rem; background-color: #fff; }
+.more_close {
+  position: absolute; top: -2.5rem; right: -2.5rem; width: 2rem; height: 2rem;}
+.more_close button {width: 100%; height: 100%; border-radius: 100%; box-sizing:border-box; border:0.3rem solid#333; background-color: #fff; font-size:0.7rem;}  
+
+.project_tap{width: 80%; height: 40px; border: 1px solid #030f51; margin: auto; background-color: #fff;}
+.project_tap ul{width: 100%; height: 100%; text-align: center;}
+.project_tap ul li{position: relative; display: inline-block; margin: 0 2rem; width: auto; height: 100%;}
+.project_tap ul li:after{
+  content: " "; display: block; position: absolute; right: -2rem; top:10%;
+   width: 1px; height: 80%; background-color: #333;
+  }
+.project_tap ul li:last-child:after{display: none;}  
+.project_tap a{display: block; width: 120px; height: 100%; line-height: 40px; }
+
+.project_content{width: 90%; height: 500px; margin: auto; margin-top: 2rem; padding: 1rem; box-sizing: border-box; border: 1px solid #030f51;  }  
+.project_content div{display: none; width: 100%; height: 100%; padding: 1rem; box-sizing: border-box;}
+.project_content .project_con_01{display: block;}
