@@ -1,0 +1,16 @@
+[
+  {"project" : "cgv",
+    "styleGuide" : {"title" : "style guide", "text": "사이트를 재작성 하기 전 스타일 가이드 작성했다.", "img": "cgv_style_guide.png"},
+    "sketch" :{"title" : "sketch", "text": "재작성할 사이트 스케치로 다양한 버전의 스케치를 했다." ,"img": "cgv_sketch.png"},
+    "prototype" :{"title" : "prototype", "text": "스케치를 토대로 프로토타입 작성했다.", "img": "cgv_prototype.png"},
+    "desing" :{"title" : "desing", "text": "프로토타입을 가지고 디자인을 했고 필요한 아이콘 및 hover시 어떻게 변하는지 등을 디자인 했다.", "img": "cgv_desing.png"},
+    "coding" :{"title" : "coding", "text": "디자인을 토대로 웹 사이트를 작성했다.", "img": "cgv_coding.png"}
+  },
+  {"project" : "19tea",
+    "styleGuide" : {"title" : "style guide", "text": "사이트를 재작성 하기 전 스타일 가이드 작성했다.", "img": "cgv_style_guide.png"},
+    "sketch" :{"title" : "sketch", "text": "재작성할 사이트 스케치로 다양한 버전의 스케치를 했다." ,"img": "cgv_sketch.png"},
+    "prototype" :{"title" : "prototype", "text": "스케치를 토대로 프로토타입 작성했다.", "img": "cgv_prototype.png"},
+    "desing" :{"title" : "desing", "text": "프로토타입을 가지고 디자인을 했고 필요한 아이콘 및 hover시 어떻게 변하는지 등을 디자인 했다.", "img": "cgv_desing.png"},
+    "coding" :{"title" : "coding", "text": "디자인을 토대로 웹 사이트를 작성했다.", "img": "cgv_coding.png"}
+  }
+]
