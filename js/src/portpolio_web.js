@@ -9,7 +9,7 @@ var navBox = headBox.children('#navBox');
 // mobile 메뉴 나타내기
 var sizeWin = win.outerWidth(true);
 var menuBtnArea = headBox.children('.meun_btn')
-var menuBtn = menuBtnArea.children('button')
+var menuBtn = menuBtnArea.find('button')
 var closeBtn = navBox.children('.close_btn')
 
 if(sizeWin <= 600){
