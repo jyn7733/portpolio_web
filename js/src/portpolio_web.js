@@ -24,21 +24,26 @@ if(sizeWin <= 600){
     e.preventDefault()
     navBox.fadeOut();
   })
-}else{// headBox가 일정 높이 이상 떨어졌을 때 포지션 바꾸기
+// }else{// headBox가 일정 높이 이상 떨어졌을 때 포지션 바꾸기
 
-  win.on('scroll',function(){
-    var winSt = win.scrollTop();
-    console.log(winSt)
+//   win.on('scroll',function(){
+//     var winSt = win.scrollTop();
+//     console.log(winSt)
 
-    if(headTop < winSt){
-      headBox.css({'position' :'fixed', 'top':0, 'z-index' : 2000,'backgroundColor' :'rgba(255, 253, 230, 0.7)'});
-    }else{
-      headBox.removeAttr('style');
-    }
-  });
+//     if(headTop < winSt){
+//       headBox.css({'position' :'fixed', 'top':0, 'z-index' : 1500,'backgroundColor' :'rgba(255, 253, 230, 0.7)'});
+//     }else{
+//       headBox.removeAttr('style');
+//     }
+//   });
   
 }
+// view에서 loading글씨 일정 시간이 지나고 사라지게 하기
+var viewBox = $('#viewBox');
+var viewTextArea = viewBox.find('.text_area');
+var timed = 3000;
 
+viewTextArea.fadeOut(timed)
 
 
 // project영역 프로젝트 list 생성

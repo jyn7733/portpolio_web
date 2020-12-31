@@ -10,7 +10,16 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.view_bg>p{
+
+.text_area{
+  width: 100%; height: 100%; 
+  animation-name:remove;
+  animation-duration: 1200ms;
+  /* animation-iteration-count: infinite; */
+  animation-timing-function: ease-in-out;
+}
+
+.text_area > p{
   font-size: 1.875rem; text-align: center; font-weight: bold;
   line-height: 100vh; text-transform: capitalize;
 }

@@ -25,8 +25,8 @@
 
 /* ------------------------------------------ */
 
-.more_box{display:none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index:100; background-color: rgba(0,0,0,0.5);}
-.more_area{ position: absolute; top: 50%; left: 50%; transform:translate(-50%, -50%);
+.more_box{display:none; position: fixed; top: 0; left: 0;  width: 100%; height: 100%; z-index:100; background-color: rgba(0,0,0,0.5);}
+.more_area{ position: absolute; top: 50%; left: 50%; z-index: 2000;  transform:translate(-50%, -50%);
   width: 80%; height: auto; min-height: 600px; border-radius:0.5rem; padding:1rem; background-color: #fff; }
 .more_close {
   position: absolute; top: -2.5rem; right: -2.5rem; width: 2rem; height: 2rem;}

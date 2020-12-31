@@ -1,7 +1,11 @@
 /* pc */
 
-#footBox{width: 100%; height: 300px; background-color: #333;}
-.ect{width: 60%; height: 50%; margin: auto; margin-top: 30px;}
+#footBox{width: 100%; height: 400px; background-color: #333;}
+#footBox h3{
+  width: 90%; height: 30%; font-size: 3.75rem; margin: auto; color: #fff; text-transform: capitalize; text-align: right;
+  border-bottom: 3px solid #fff;
+}
+.ect{width: 60%; height: 20%; margin: auto; margin-top: 1.875rem;}
 .ect p{color: #fff; text-align: center;}
-.info{width: 60%; height: 40%; margin: auto;}
+.info{width: 60%; height: 20%; margin: auto;}
 .info p{color: #fff; text-align: center;}
