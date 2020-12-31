@@ -70,11 +70,11 @@
   background-position: 50% 50%;
   background-size: contain;
 }
-.skil_img:nth-child(1){background-image: url("../../../img/skill_30.png");}
-.skil_img:nth-child(2){background-image: url("../../../img/skill_30.png");}
-.skil_img:nth-child(3){background-image: url("../../../img/skill_30.png");}
-.skil_img:nth-child(4){background-image: url("../../../img/skill_30.png");}
-.skil_img:nth-child(5){background-image: url("../../../img/skill_30.png");}
-.skil_img:nth-child(6){background-image: url("../../../img/skill_30.png");}
+.skil_img_01{background-image: url("../../../img/skill_50.png");}
+.skil_img_02{background-image: url("../../../img/skill_50.png");}
+.skil_img_03{background-image: url("../../../img/skill_80.png");}
+.skil_img_04{background-image: url("../../../img/skill_80.png");}
+.skil_img_05{background-image: url("../../../img/skill_50.png");}
+.skil_img_06{background-image: url("../../../img/skill_30.png");}
 
 /* //aboutMe ------------------------------------------------------------*/

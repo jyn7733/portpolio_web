@@ -32,7 +32,7 @@
   position: absolute; top: -2.5rem; right: -2.5rem; width: 2rem; height: 2rem;}
 .more_close button {width: 100%; height: 100%; border-radius: 100%; box-sizing:border-box; border:0.3rem solid#333; background-color: #fff; font-size:0.7rem;}  
 
-.project_tap{width: 80%; height: 40px;  margin: auto; background-color: #fff;}
+.project_tap{width: 80%; height: 10%;  margin: auto; background-color: #fff;}
 .project_tap ul{width: 100%; height: 100%; text-align: center;}
 .project_tap ul li{position: relative; display: inline-block; margin: 0 2rem; width: auto; height: 100%;}
 .project_tap ul li:after{
@@ -46,10 +46,11 @@
 .project_content{width: 90%; height: 500px; margin: auto; margin-top: 2rem; padding: 1rem; box-sizing: border-box;  }  
 .project_content .project_con_list{ width: 100%; height: 100%; padding: 1rem; box-sizing: border-box;}
 .project_list_img{
-  width: 100%; height: 70%;
-  margin-bottom: 50px;
+  width: 50%; height: 70%;
+  margin-bottom: 50px; margin: auto;
   border: 1px solid #030f51;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: contain; 
 }
+.project_con_list p {display: block; width: 50%; height: 20%; margin: auto; margin-top: 30px;}

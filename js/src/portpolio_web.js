@@ -12,6 +12,8 @@ var menuBtnArea = headBox.children('.meun_btn')
 var menuBtn = menuBtnArea.find('button')
 var closeBtn = navBox.children('.close_btn')
 
+var headTop = headBox.offset().top;
+
 if(sizeWin <= 600){
   menuBtn.on('click',function(e){
     e.preventDefault();
@@ -22,7 +24,22 @@ if(sizeWin <= 600){
     e.preventDefault()
     navBox.fadeOut();
   })
+}else{// headBox가 일정 높이 이상 떨어졌을 때 포지션 바꾸기
+
+  win.on('scroll',function(){
+    var winSt = win.scrollTop();
+    console.log(winSt)
+
+    if(headTop < winSt){
+      headBox.css({'position' :'fixed', 'top':0, 'z-index' : 2000,'backgroundColor' :'rgba(255, 253, 230, 0.7)'});
+    }else{
+      headBox.removeAttr('style');
+    }
+  });
+  
 }
+
+
 
 // project영역 프로젝트 list 생성
 var projectBox = $('#projectBox');
@@ -147,6 +164,7 @@ $.ajax({
         var itI = it.index();
         indexCheck = itI; 
         ModalData(indexCheck);
+        
         moreBox.fadeIn();    
       });
       closeBtn.on('click',function(e){
