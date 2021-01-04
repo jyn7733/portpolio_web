@@ -195,45 +195,5 @@ $.ajax({
     })
 
 
-    
-      // var j=0, k=0,n=0,h=0;
-      // for(; j < 2; j++){
-      //   projectBox.append(projectCode); //modal영역 태그생성
-      //   moreBox = projectBox.children('.more_box');      
-      //   moreArea = moreBox.children('.more_area');
-      //   projectTap = moreArea.children('.project_tap');
-      //   projectDataUl = projectTap.children('.project_nav');
-      //   projectContent = moreArea.children('.project_content');
-      // }
-
-      // for (k; k < projectData.length; k++){
-      //   projectDataUl.eq(0).append(projectDataLiCode);//modal영역에서 nav영역의 ul의 첫번째 요소에 li생성
-      //   projectDataLi = projectDataUl.eq(0).children('li');
-      //   projectDataLi.eq(k).children('a').text(projectData[k].title);//생성한 li의 a태그에 텍스트 삽입
-
-      //   projectContent.eq(0).append(projectDataConCode);//modal영역에서 콘텐츠(이미지와 글)이 들어갈 영역 생성
-      // }
-
-      // for (n; n < projectData.length; n++){
-      //   projectDataUl.eq(1).append(projectDataLiCode);
-      //   projectDataLi = projectDataUl.eq(1).children('li');
-      //   projectDataLi.eq(n).children('a').text(projectData[n].title);
-
-      //   projectContent.eq(1).append(projectDataConCode);//modal영역에서 콘텐츠(이미지와 글)이 들어갈 영역 생성
-        
-      // }
-
-      // projectConList = projectContent.children('.project_con_list');
-      // projectConList.hide();
-      // projectConList.eq(0).show();
-      // projectConList.eq(5).show();
-      
-      // for(h; h < 9; h++){
-      //   projectListImg = projectConList.children('.project_list_img');
-      //   projectListImg.eq(h).css({backgroundImage : backgroundImage : 'url(' + url + projectData[].img + ')'})
-      // }
-
-
-
 })(jQuery);
 //jQuery end

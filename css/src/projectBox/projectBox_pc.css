@@ -7,7 +7,7 @@
   width: 80%; height: auto; min-height: 500px; margin: auto; margin-top: 40px; 
   text-align: center;
 }
-.project_area ul>li{display: inline-block; width: 30%; height: 500px; margin-right: 20px; margin-bottom: 1.875rem; border: 2px solid #030303;}
+.project_area ul>li{display: inline-block; width: 30%; height: 26.0416666667vw; margin-right: 20px; margin-bottom: 1.875rem; border: 2px solid #030303;}
 .project_img{
   width: 100%; height: 60%; 
   background-repeat: no-repeat;
@@ -54,3 +54,4 @@
   background-size: contain; 
 }
 .project_con_list p {display: block; width: 50%; height: 20%; margin: auto; margin-top: 30px;}
+
