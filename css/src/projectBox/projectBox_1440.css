@@ -1,0 +1,6 @@
+/* projectBox_1440.css */
+
+@media screen and (min-width: 1025px) and (max-width:1440px){
+  #projectBox{ min-height: 600px;}
+  
+}

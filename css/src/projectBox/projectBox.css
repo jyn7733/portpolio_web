@@ -1,3 +1,6 @@
 /* projectBox.css */
 
 @import url("../projectBox/projectBox_pc.css");
+@import url("../projectBox/projectBox_1440.css");
+@import url("../projectBox/projectBox_1024.css");
+@import url("../projectBox/projectBox_600.css");
