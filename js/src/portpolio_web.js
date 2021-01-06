@@ -190,10 +190,28 @@ $.ajax({
            
       });
 
-
-
     })
 
+    //source영역 dt 클릭시 dd가 나오게 하기
+    var sourceBox = $('#sourceBox');
+    var sourceDl = sourceBox.find('dl');
+    var sourceDt = sourceDl.children('dt');
+    var sourceDd = sourceDl.children('dd');
+
+    sourceDt.on('click',['a'],function(e){
+      e.preventDefault();
+      var it = $(this);
+      it.next('dd').stop().slideToggle(function(){
+        var itDdDisplay = it.next('dd').css('display');
+        if(itDdDisplay === 'block'){
+          it.addClass('action');
+          it.siblings().removeClass('action');
+        }else if(itDdDisplay === 'none'){
+          it.removeClass('action');
+        }
+      });
+      it.siblings('dt').next('dd').stop().slideUp();
+    });
 
 })(jQuery);
 //jQuery end
